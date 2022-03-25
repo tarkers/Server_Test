@@ -2,7 +2,8 @@
   "letters": [{
       "name": "1265",
       "image": "",
-      "id": "0"
-      
+      "id": "0",
+      "text":"",
+      "person":""
   }]
 }
