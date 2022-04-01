@@ -5,6 +5,8 @@
       "id": "0",
       "text":"",
       "person":"",
+      "gender":"Boy",
+      "receive":"dad",
       "month": 2
   }]
 }
