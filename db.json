@@ -7,7 +7,7 @@
     "person": "test person",
     "gender": "Boy",
     "receive": "dad",
-    "month": 2
+    "month": 3
   }, {
     "name": "1265",
     "image": "",
@@ -16,7 +16,7 @@
     "person": "test person",
     "gender": "Boy",
     "receive": "dad",
-    "month": 2
+    "month": 3
   }, {
     "name": "1265",
     "image": "",
@@ -25,7 +25,7 @@
     "person": "test person",
     "gender": "Boy",
     "receive": "dad",
-    "month": 2
+    "month": 3
   }, {
     "name": "1265",
     "image": "",
@@ -34,16 +34,16 @@
     "person": "test person",
     "gender": "Boy",
     "receive": "dad",
-    "month": 2
+    "month": 3
   }, {
     "name": "1265",
     "image": "",
     "id": "4",
-    "text": "",
+    "text": "test the word\n測試文字",
     "person": "test person",
     "gender": "Boy",
     "receive": "dad",
-    "month": 2
+    "month": 3
   }, {
     "name": "1265",
     "image": "",
@@ -52,7 +52,7 @@
     "person": "test person",
     "gender": "Boy",
     "receive": "dad",
-    "month": 2
+    "month": 3
   }, {
     "name": "1265",
     "image": "",
@@ -61,7 +61,10 @@
     "person": "test person",
     "gender": "Boy",
     "receive": "dad",
-    "month": 2
+    "month": 3
+  }],
+  "password": {
+    "user": "admin",
+    "password": "abc0000"
   }
-]
 }
