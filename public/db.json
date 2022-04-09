@@ -66,5 +66,8 @@
   "password": {
     "user": "admin",
     "password": "abc0000"
+  },
+  "images":{
+    "1":"tesetsetstt"
   }
 }
