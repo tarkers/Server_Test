@@ -8,7 +8,7 @@ git add .
 git commit -m "$($(Get-Date -f MM-dd-hh-mm-ss))"
 git push
 # #for heroku
-heroku git:remote -a dear-family-server
-git add .
-git commit -m "$($(Get-Date -f MM-dd-hh-mm-ss))"
-git push --force heroku
+# heroku git:remote -a dear-family-server
+# git add .
+# git commit -m "$($(Get-Date -f MM-dd-hh-mm-ss))"
+# git push --force heroku
