@@ -6,7 +6,7 @@ node autoScratch.js
 # #for github
 git add .
 git commit -m "$($(Get-Date -f MM-dd-hh-mm-ss))"
-git push
+git push --force
 # #for heroku
 # heroku git:remote -a dear-family-server
 # git add .
