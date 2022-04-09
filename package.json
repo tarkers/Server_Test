@@ -12,6 +12,9 @@
   "author": "Jesper Orb",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "axios": "^0.26.1",
+    "fs": "^0.0.1-security",
+    "json-server": "^0.17.0",
+    "jssoup": "^0.0.15"
   }
 }
