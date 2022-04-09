@@ -10,3 +10,6 @@ heroku git:remote -a dear-family-server
 git add .
 git commit -m "$($(Get-Date -f MM-dd-hh-mm-ss))"
 git push --force heroku
+
+#remove file
+Remove-Item C:\Users\bigsh\Downloads\db.json
