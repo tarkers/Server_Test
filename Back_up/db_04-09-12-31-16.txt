@@ -4,7 +4,7 @@
       "name": "1265",
       "id": "0",
       "text": "",
-      "person": "test person",
+      "person": "testnre testgprtsperson",
       "gender": "Boy",
       "receive": "dad",
       "month": 3
@@ -98,15 +98,6 @@
       "receive": "mom",
       "month": 4,
       "id": "rewEQ_P"
-    },
-	{
-      "name": "to_媽媽_下午12:04:59",
-      "text": "\n\n給嬤嬤的一封信\n\n\n\n",
-      "person": "媽媽",
-      "gender": "Boy",
-      "receive": "mom",
-      "month": 4,
-      "id": "reweee"
     }
   ],
   "password": {
