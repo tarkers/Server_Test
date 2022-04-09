@@ -1,5 +1,5 @@
 Move-Item -Path C:\Users\bigsh\Desktop\Github\Server_Test\public\db.json C:\Users\bigsh\Desktop\Github\Server_Test\Back_up\db.json
-Rename-Item -Path "C:\Users\bigsh\Desktop\Github\Server_Test\Back_up\db.json" -NewName "db_$(Get-Date -f MM-dd-hh-mm-ss).txt"
+Rename-Item -Path "C:\Users\bigsh\Desktop\Github\Server_Test\Back_up\db.json" -NewName "db_$(Get-Date -f MM-dd-hh-mm-ss).json"
 # Move-Item -Path C:\Users\bigsh\Downloads\db.json C:\Users\bigsh\Desktop\Github\Server_Test\public\db.json
 # new data db
 node autoScratch.js
