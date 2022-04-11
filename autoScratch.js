@@ -6,4 +6,11 @@ axios.get('https://dear-family-server.herokuapp.com/db.json', {responseType: 'bl
         if (err) throw err;
         console.log('The file has been saved!');
     });
-});
+}).catch(function (error) {
+    fs.writeFile('public/db.json', JSON.stringify({error:error}), (err) => {
+        if (err) throw err;
+        console.log('The file has been saved!');
+    });
+    // handle error
+    console.log(error);
+  });
