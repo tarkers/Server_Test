@@ -11,9 +11,6 @@ if ( $status -like '*Up*') {
     Move-Item -Path C:\Users\bigsh\Downloads\db.json C:\Users\bigsh\Desktop\Github\Server_Test\public\db.json
     # #for heroku
     heroku login
-    $wshell = New-Object -ComObject wscript.shell;
-    $wshell.SendKeys("{ENTER}")
-    # $myshell.sendkeys("{ENTER}")
     heroku git:remote -a dear-family-server
     git add .
     git commit -m "$($(Get-Date -f MM-dd-hh-mm-ss))"
