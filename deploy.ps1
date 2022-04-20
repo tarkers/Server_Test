@@ -5,13 +5,20 @@ if ( $status -like '*Up*') {
     Write-Host 'has netork'
     Copy-Item -Path C:\Users\bigsh\Desktop\Github\Server_Test\public\db.json C:\Users\bigsh\Desktop\Github\Server_Test\Back_up\db.json
     Rename-Item -Path "C:\Users\bigsh\Desktop\Github\Server_Test\Back_up\db.json" -NewName "db_$(Get-Date -f MM-dd-hh-mm-ss).json"
-    Move-Item -Path C:\Users\bigsh\Downloads\db.json C:\Users\bigsh\Desktop\Github\Server_Test\public\db.json
+    
     # new data db
     node autoScratch.js
-    # #for github
+    Move-Item -Path C:\Users\bigsh\Downloads\db.json C:\Users\bigsh\Desktop\Github\Server_Test\public\db.json
+    # #for heroku
+    heroku login
+    $wshell = New-Object -ComObject wscript.shell;
+    $wshell.SendKeys("{ENTER}")
+    # $myshell.sendkeys("{ENTER}")
+    heroku git:remote -a dear-family-server
     git add .
     git commit -m "$($(Get-Date -f MM-dd-hh-mm-ss))"
-    git push --force
+    git push --force heroku
+
 }
 else {
     Write-Host 'no network'
@@ -25,7 +32,10 @@ else {
 # Move-Item -Path C:\Users\bigsh\Downloads\db.json C:\Users\bigsh\Desktop\Github\Server_Test\public\db.json
 
 
-
+# #for github
+# git add .
+# git commit -m "$($(Get-Date -f MM-dd-hh-mm-ss))"
+# git push --force
 
 
 
