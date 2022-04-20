@@ -8,13 +8,17 @@ if ( $status -like '*Up*') {
     
     # new data db
     node autoScratch.js
-    Move-Item -Path C:\Users\bigsh\Downloads\db.json C:\Users\bigsh\Desktop\Github\Server_Test\public\db.json
+    # Move-Item -Path C:\Users\bigsh\Downloads\db.json C:\Users\bigsh\Desktop\Github\Server_Test\public\db.json
     # #for heroku
     # heroku login
     heroku git:remote -a dear-family-server
     git add .
     git commit -m "$($(Get-Date -f MM-dd-hh-mm-ss))"
     git push --force heroku
+    # #for github
+    git add .
+    git commit -m "$($(Get-Date -f MM-dd-hh-mm-ss))"
+    git push --force
 
 }
 else {
